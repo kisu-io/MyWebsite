@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(background.jpg);
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  user-select: none;
+  background-color: rgba(255, 255, 255, 0.233);
+  padding: 60px 30px 30px 30px;
+  border-radius: 20px;
+  position: relative;
+}
+
+#potrait {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 10px ridge rgba(255, 255, 255, 0.356);
+}
+
+#name {
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(253, 43, 43);
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#quotes {
+  font-family: "La Belle Aurore", cursive;
+  font-size: 25px;
+}
+
+#author {
+  text-align: end;
+  font-style: italic;
+}
+
+.icon {
+  color: rgb(116, 133, 129);
+  font-size: 30px;
+}
+
+#icons {
+  text-align: center;
+}
+
+#blur {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(8px);
+}
+
+.wrapper {
+  padding-top: 50px;
+}
